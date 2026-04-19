@@ -34,9 +34,9 @@ Add these to your profile's `.env` or configure via memory:
 ```
 NOTION_API_KEY=your_notion_api_key
 NOTION_PROSPECTS_DB_ID=your_database_id
-INDUSTRY=Manufacturing
+INDUSTRY="Enter your target"
 TARGET_ROLES=VP,Director,Head of
-EXCLUDE_TYPES=logistics,transport,schools,hospitals,government
+EXCLUDE_TYPES="Companies you dont want to inlcude in your list"
 REVENUE_MIN=100M
 ```
 
@@ -60,8 +60,8 @@ Required properties:
 ## Trigger Examples
 
 - "prospect VP Supply Chain in Dallas"
-- "find me Directors of Operations in Chicago"
-- "search for supply chain executives in Atlanta"
+- "find me Directors of Sales in Chicago"
+- "search for Finance executives in Atlanta"
 
 ## Search Sources (in order)
 
